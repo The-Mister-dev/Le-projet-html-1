@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">À-propos</a></li>
+            <li><a href="#work">Travail</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section À-propos -->
+    <section id="about">
+        <h2>À-propos</h2>
+        <img src="Images/1664496258887-removebg-preview.png" alt="Photo de présentation de Gael" class="center" width="250px
+        ">
+        <p>Salut je me nomme Gael et je suis passionné du code. Je suis actuellement en formation à GOMYCODE.</p>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="work">
+        <h2>Travail</h2>
+        <p style="height: 30px;">Découvrez mes différents domaines d'activité :</p>
+        <ul>
+            <li>Comptabilité et gestion d'entreprise</li>
+            <li>Création de sites web avec <em><b>WordPress et Odoo</b></em></li>
+            <li>Personnalisation de pages Facebook professionnelles</li>
+            <li>Facebook Ads</li>
+            <li>Conception de logos et chartes graphiques</li>
+            <li>Montage et édition vidéo</li>
+            <li>Infographie : <em><b>(affiches pro, événements et plus...)</b></em></li>
+        </ul>
+    </section>
+
+    <!-- Section CV -->
+    <section id="cv">
+        <h2>CV</h2>
+        <button>
+            <a href="Documents/GAEL.pdf" download>Téléchargez mon CV</a>
+        </button>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="/submit-form" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message :</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea><br><br>
+            <button style="color: white; padding: 10px 20px;" type="submit">Envoyer</button>
+        </form><br><br>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>©2025 - Mon Portfolio</p>
+    </footer>
+</body>
+</html>
